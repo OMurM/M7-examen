@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    padding: 20px;
+  }
+  
+  .tauler {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .taska {
+    background-color: #e1e4e8;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .taska:hover {
+    background-color: #99c2ff;
+  }
+  
+  .taska.moguda {
+    background-color: #d3ffd3;
+    text-decoration: line-through;
+  }
+  
